@@ -1,9 +1,9 @@
 .PHONY: all
 all:
-	vivado -mode batch -source ./vivado/noelvmp_vivado.tcl ./vivado/noelvmp_vivado_run.tcl
+	vivado -mode batch -source ./vivado/tcl/run.tcl ./vivado/tcl/synth.tcl
 
 gui:
-	vivado -mode gui -source ./vivado/noelvmp_vivado.tcl ./vivado/noelvmp_vivado_run.tcl
+	vivado -mode gui -source ./vivado/tcl/run.tcl ./vivado/tcl/synth.tcl
 
 clean:
 	rm -rf $(PROJECT).cache
