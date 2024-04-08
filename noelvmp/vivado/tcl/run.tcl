@@ -456,9 +456,9 @@ read_vhdl -library work ./boards/digilent-arty-a7/ahb2axi_mig3_arty_a7.vhd
 read_vhdl -library work ./rtl/clockers_mig.vhd
 read_vhdl -library work ./config.vhd
 read_vhdl -library work ./cfg/config_local.vhd
-read_vhdl -library work ./../noelv-generic/rtl/core/rev.vhd
-read_vhdl -library work ./../noelv-generic/rtl/core/cfgmap.vhd
-read_vhdl -library work ./../noelv-generic/rtl/core/noelvcore.vhd
+read_vhdl -library work ./noelv-generic/rtl/core/rev.vhd
+read_vhdl -library work ./noelv-generic/rtl/core/cfgmap.vhd
+read_vhdl -library work ./noelv-generic/rtl/core/noelvcore.vhd
 read_vhdl -library work ./rtl/ahbrom.vhd
 read_vhdl -library work ./rtl/ahbrom64.vhd
 read_vhdl -library work ./rtl/ahbrom128.vhd
