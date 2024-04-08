@@ -14,7 +14,8 @@ clean:
 	rm -rf $(PROJECT).sim
 	rm -rf $(PROJECT).srcs
 	rm -rf $(PROJECT).xpr
-	rm -rf vivado*
+	rm -rf vivado.*
+	rm -rf vivado_*
 	rm -rf .Xil/
 	rm -rf noelvmp.edn
 	rm -rf noelvmp_stub.vhd
