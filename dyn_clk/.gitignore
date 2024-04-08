@@ -1,0 +1,5 @@
+noelvmp.edn
+noelvmp_stub.vhd
+dyn_clk.*
+vivado*
+.Xil/
