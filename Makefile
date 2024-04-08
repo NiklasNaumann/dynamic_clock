@@ -2,7 +2,7 @@
 
 all: noelvmp ip dyn_clk
 
-noelv: noelvmp/noelvmp.edn
+noelvmp: noelvmp/noelvmp.edn
 	cp ./noelvmp/noelvmp.edn ./noelvmp_ip/noelvmp.edn
 	cp ./noelvmp/noelvmp_stub.vhd ./noelvmp_ip/noelvmp_stub.vhd
 
