@@ -1,4 +1,5 @@
 .Xil/
 noelvmp.edn
 noelvmp_stub.vhd
-vivado*
+vivado.*
+vivado_
