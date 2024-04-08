@@ -19,4 +19,3 @@ clean:
 	make -C noelvmp clean
 	make -C noelvmp_ip clean
 	make -C dyn_clk clean
-	rm -rf ip_repo/noelvmp/*
